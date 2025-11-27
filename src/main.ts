@@ -1,5 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import "./style.css";
+import "./styles/index.css";
+import "virtual:uno.css";
+import "@unocss/reset/tailwind.css";
 
-createApp(App).mount("#app");
+const app = createApp(App);
+app.mount("#app");
