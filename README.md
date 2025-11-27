@@ -10,5 +10,5 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 - [x] unocss unocss-preset-animations unocss-preset-shadcn uno.config.ts @iconify-json/ri @unocss/reset
 - [x] clsx cva tailwind-merge (lucide-vue-next radix-vue)
 - [ ] unplugin-auto-import unplugin-vue-components
-- [ ] @vueuse/core vue-router pinia pinia-plugin-persistedstate
+- [x] @vueuse/core vue-router pinia pinia-plugin-persistedstate
 - [ ] vite-plugin-vue-devtools

@@ -1,10 +1,18 @@
-import { defineConfig, presetWind4 } from "unocss";
+import { defineConfig, presetIcons, presetWind4, transformerDirectives } from "unocss";
 import presetAnimations from "unocss-preset-animations";
 import { presetShadcn } from "unocss-preset-shadcn";
 
 export default defineConfig({
-  // @ts-expect-error unocss-preset-shadcn is not typed
-  presets: [presetWind4(), presetAnimations(), presetShadcn()],
+  presets: [
+    presetWind4(),
+    presetAnimations(),
+    presetShadcn({
+      color: "red",
+      radius: 0.75,
+    }),
+    presetIcons(),
+  ],
+  transformers: [transformerDirectives()],
   content: {
     pipeline: {
       include: [
