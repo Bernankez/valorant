@@ -21,7 +21,7 @@ export function presetValorant(): Preset<Theme> {
   --border: 0.9 0 264.5;
   --info: 0.7 0.1 232;
   --info-foreground: 1 0 0;
-  --success: 0.6 0.1 160.1;
+  --success: 0.8 0.2 168.3;
   --success-foreground: 1 0 0;
   --warning: 0.8 0.2 83.8;
   --warning-foreground: 0 0 0;
@@ -52,7 +52,7 @@ export function presetValorant(): Preset<Theme> {
   --border: 0.3 0 34.3;
   --info: 0.7 0.1 232;
   --info-foreground: 1 0 0;
-  --success: 0.6 0.1 160.1;
+  --success: 0.8 0.2 168.3;
   --success-foreground: 1 0 0;
   --warning: 0.8 0.2 83.8;
   --warning-foreground: 0 0 0;
