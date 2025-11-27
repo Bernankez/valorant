@@ -5,7 +5,11 @@ export const router = createRouter({
   routes: [
     {
       path: "/",
-      component: () => import("@/pages/index.vue"),
+      redirect: "/crosshair",
+    },
+    {
+      path: "/crosshair",
+      component: () => import("@/pages/crosshair/index.vue"),
     },
   ],
 });
