@@ -4,8 +4,9 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import { router } from "./router";
 import "./styles/index.css";
+import "./styles/global.css";
 import "virtual:uno.css";
-import "@unocss/reset/tailwind.css";
+// import "@unocss/reset/tailwind.css";
 
 const app = createApp(App);
 const pinia = createPinia();
