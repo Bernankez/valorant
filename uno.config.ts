@@ -7,7 +7,9 @@ export default defineConfig({
   presets: [
     presetWind4(),
     presetAnimations(),
-    presetShadcn(),
+    presetShadcn(undefined, {
+      componentLibrary: "reka",
+    }),
     presetIcons(),
     presetValorant(),
   ],
