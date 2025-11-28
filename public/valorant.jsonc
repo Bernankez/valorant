@@ -1,0 +1,13 @@
+{
+  // config name
+  "name": "科科Cole",
+  "avatar": "https://github.com/Bernankez.png",
+  // TODO WIP
+  "crosshairs": [
+    {
+      "name": "小十字",
+      "code": "0;p;0;s;1;P;c;1;o;0.2;0l;4;0o;2;0a;1;0f;0;1l;0;1a;1;1m;0;1f;0;A;c;1;t;2;d;1;0b;0;1b;0",
+      "tags": ["demon1"]
+    }
+  ]
+}
